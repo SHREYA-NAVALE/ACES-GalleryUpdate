@@ -1,0 +1,12 @@
+/* effect.css */
+
+/* Styles for the black and white effect by default */
+.grayscale {
+    filter: grayscale(100%);
+    transition: filter 0s ease-in-out;  }
+  
+  /* Styles for the original color effect on hover */
+  .grayscale:hover {
+    filter: grayscale(0%);
+  }
+  
